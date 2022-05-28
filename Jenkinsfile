@@ -7,7 +7,7 @@ pipeline {
         maven "Maven3"
     }
     environment {
-        // This can be nexus3 or nexus2
+        // This can be nexus3 or nexus2 repository
         NEXUS_VERSION = "nexus3"
         // This can be http or https
         NEXUS_PROTOCOL = "http"
