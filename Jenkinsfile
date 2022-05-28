@@ -3,7 +3,7 @@ pipeline {
         label "master"
     }
     tools {
-        // Note: this should match with the tool name configured in your jenkins instance (JENKINS_URL/configureTools/)
+        // Note: this should match with the tool name configured in your jenkins instances (JENKINS_URL/configureTools/)
         maven "Maven3"
     }
     environment {
