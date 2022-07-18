@@ -1,4 +1,4 @@
-FROM docker.io/revanpeddi/tomcat8:v1
+FROM busybox
 #FROM docker.io/tomcat/tomcat:8.0.20-jre8
 #WORKDIR /usr/local/tomcat/webapps/
 #RUN pwd
